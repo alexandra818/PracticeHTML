@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment 4</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        p {
+            margin: 15px auto 20px;
+        }
+
+        body,
+        html {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .box-shadow {
+            -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.32);
+            -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.32);
+            box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.32);
+        }
+
+        .main-container-grid {
+            display: grid;
+            grid-template-rows: 1fr 13fr 1fr;
+            height: 100%;
+            grid-row-gap: 1em;
+        }
+
+        .r1,
+        .r3 {
+            height: 50px;
+            background-color: #e6d2dd;
+            padding: 1em;
+            align-self: center;
+            align-items: center;
+
+
+        }
+
+        .r3 {
+
+            text-align: center;
+        }
+
+        .r2 {
+            height: 100%;
+            background-color: #e6d2dd;
+
+
+        }
+
+        .three-column {
+            display: grid;
+            grid-template-columns: 2fr 8fr 3fr;
+            background-color: #e6d2dd;
+            grid-column-gap: 1em;
+        }
+
+        .c1 {
+            min-width: 200px;
+        }
+
+        .c1,
+        .c3 {
+            background-color: #e6d2dd;
+        }
+
+        .txt-center {
+            text-align: center;
+            margin: 15px auto 15px;
+            border-bottom: 1px solid rgb(165, 165, 165);
+            padding-bottom: 15px;
+        }
+
+        .left-nav {
+            list-style-type: none;
+
+        }
+
+        .left-nav>li>a {
+            display: block;
+            padding: 15px 0px 15px 30px;
+            background-color: #e6d2dd;
+            transition-duration: 0.7s;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .left-nav>li>a:hover {
+            background-color: #d2e6db;
+        }
+
+        .c2 {
+
+            padding: 40px 20%;
+            height: 100%;
+        }
+
+        .h2-content {
+            grid-column: 1 / 5;
+            height: 22px;
+            width: 100%;
+        }
+
+        .c2>img {
+            width: 100%;
+            align-self: center;
+            max-height: 130px;
+        }
+        .back-button {
+            padding: 7px 16px;
+            background-color: #d2e6db;
+            float: right;
+            margin-bottom: 15px;
+        }
+        .back-button:hover {
+            background-color: #e6d2dd;
+        }
+    </style>
+</head>
+
+<body class="main-container-grid">
+
+    <div class="r1 box shadow">
+        <h2>Alexandra Garcia Castro</h2>
+    </div>
+    <div class="r2 one-column">
+        <div class="c2">
+                <a href="./index.html"class="back-button">Back to Home</a>
+            <h2>Company Information</h2>
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+                have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                like)
+
+            </p>
+            <p> It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+                have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                like)
+            </p>
+            <p> It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+                have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                like)
+            </p>
+        </div>
+        <div class="c3">
+
+        </div>
+    </div>
+    <div class="r3">
+        Copyright 2019 - Created by Alexandra Garcia Castro
+    </div>
+</body>
+
+</html>
